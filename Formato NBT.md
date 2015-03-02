@@ -1,9 +1,10 @@
 ## Formato NBT en Minecraft:
-
-[Some text](#formato-nbt-en-minecraft)
-
-El formato NBT es 
-The Named Binary Tag format is used by Minecraft for the various files in which it saves data. The format is described by Notch in a very brief specification. The format is designed to store data in a tree structure made up of various tags. All tags have an ID and a name. The original known version was 19132 as introduced in Minecraft Beta 1.3, and since then has been updated to 19133 with Anvil, with the addition of the Int Array tag. The NBT format dates all the way back to Minecraft Indev with tags 0 to 10 in use.
+El formato **NBT** es utilizado en Minecraft para almacenar datos en forma de árbol compuesto por tags. Todas las tags tienen una ID y un nombre propios. La versión original que podemos encontrar en [*Minecraft Beta 1.3*](http://minecraft.gamepedia.com/Version_history/Beta#Beta_1.3) hace uso de la versión `19132` y se actualizó a la `19133` cuando se cambió a [*Anvil*](http://minecraft.gamepedia.com/Anvil_file_format), con la adición de la *TAG_****Int_Array***.  
+### Definición de tag:  
+Una tag es una parte individual del árbol de datos. El primer byte en una tag determina su ID, le siguen dos bytes para la longitud del nombre de la tag y, por último, el nombre como cadena de caracteres en formato UTF-8.  
+*(Nota: TAG_End no está nombrada y no contiene los 2 bytes correspondientes)*  
+Los nombres de las tags pueden contener espacios, aunque en Minecraft nunca los almacena con espacios dentro del nombre. Finalmente, dependiendo del tipo de tag, los bytes que siguen son los datos almacenables.  
+La siguiente tabla describe cad una de las 12 tags conocidas en la versión `19133` del formato NBT:  
 
 ID | Icono | Tipo de tag | Payload | Descripción | Capacidad de almacenamiento
 --- | --- | --- | --- | --- | ---
