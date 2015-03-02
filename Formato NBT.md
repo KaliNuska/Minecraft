@@ -3,14 +3,14 @@ The Named Binary Tag format is used by Minecraft for the various files in which 
 ID | Icono | Tipo de tag | Payload | Descripción | Capacidad de almacenamiento
 --- | --- | --- | --- | --- | ---
 0 | ![TAG_End](http://i.imgur.com/GbbSJOl.png "TAG_End") | TAG_**End** | Nada. | Used to mark the end of compound tags. This tag does not have a name, so it is only ever a single byte 0. It may also be the type of empty List tags. | N/A
-1 | ![TAG_Byte](http://i.imgur.com/GbbSJOl.png "TAG_Byte") | TAG_**Byte** |  |  | 
-2 | ![TAG_Short](http://i.imgur.com/GbbSJOl.png "TAG_Short") | TAG_**Short** |  |  | 
-3 | ![TAG_Int](http://i.imgur.com/GbbSJOl.png "TAG_Int") | TAG_**Int** |  |  | 
-4 | ![TAG_Long](http://i.imgur.com/GbbSJOl.png "TAG_Long") | TAG_**Long** |  |  | 
-5 | ![TAG_Float](http://i.imgur.com/GbbSJOl.png "TAG_Float") | TAG_**Float** |  |  | 
-6 | ![TAG_Double](http://i.imgur.com/GbbSJOl.png "TAG_Double") | TAG_**Double** |  |  | 
-7 | ![TAG_Byte_Array](http://i.imgur.com/GbbSJOl.png "TAG_Byte_Array") | TAG_**Byte_Array** |  |  | 
-8 | ![TAG_String](http://i.imgur.com/GbbSJOl.png "TAG_String") | TAG_**String** |  |  | 
-9 | ![TAG_List](http://i.imgur.com/GbbSJOl.png "TAG_List") | TAG_**List** |  |  | 
-10 | ![TAG_Compound](http://i.imgur.com/GbbSJOl.png "TAG_Compound") | TAG_**Compound** |  |  | 
-11 | ![TAG_Int_Array](http://i.imgur.com/GbbSJOl.png "TAG_Int_Array") | TAG_**Int_Array** |  |  | 
+1 | ![TAG_Byte](http://i.imgur.com/DLpKqKK.png "TAG_Byte") | TAG_**Byte** |  |  | 
+2 | ![TAG_Short](http://i.imgur.com/mOTYBeM.png "TAG_Short") | TAG_**Short** |  |  | 
+3 | ![TAG_Int](http://i.imgur.com/S24DzxI.png "TAG_Int") | TAG_**Int** |  |  | 
+4 | ![TAG_Long](http://i.imgur.com/DUiiE1O.png "TAG_Long") | TAG_**Long** |  |  | 
+5 | ![TAG_Float](http://i.imgur.com/SzJFi47.png "TAG_Float") | TAG_**Float** |  |  | 
+6 | ![TAG_Double](http://i.imgur.com/RHW9hx9.png "TAG_Double") | TAG_**Double** |  |  | 
+7 | ![TAG_Byte_Array](http://i.imgur.com/tOTGqjP.png "TAG_Byte_Array") | TAG_**Byte_Array** |  |  | 
+8 | ![TAG_String](http://i.imgur.com/c2NRyWV.png "TAG_String") | TAG_**String** |  |  | 
+9 | ![TAG_List](http://i.imgur.com/S7q49GR.png "TAG_List") | TAG_**List** |  |  | 
+10 | ![TAG_Compound](http://i.imgur.com/bRuYarV.png "TAG_Compound") | TAG_**Compound** |  |  | 
+11 | ![TAG_Int_Array](http://i.imgur.com/9K6IiQm.png "TAG_Int_Array") | TAG_**Int_Array** |  |  | 
