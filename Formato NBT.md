@@ -1,6 +1,6 @@
 ## Formato NBT en Minecraft:
 
-[Some text](#Formato-NBT-en-Minecraft)
+[Some text](#formato-nbt-en-minecraft)
 
 El formato NBT es 
 The Named Binary Tag format is used by Minecraft for the various files in which it saves data. The format is described by Notch in a very brief specification. The format is designed to store data in a tree structure made up of various tags. All tags have an ID and a name. The original known version was 19132 as introduced in Minecraft Beta 1.3, and since then has been updated to 19133 with Anvil, with the addition of the Int Array tag. The NBT format dates all the way back to Minecraft Indev with tags 0 to 10 in use.
