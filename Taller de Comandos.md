@@ -1,5 +1,10 @@
 # Taller de Comandos:  
+## Índice:  
+  * [**Arreglo de Comandos**](#Arreglo-de-Comandos):  
+    * [Comandos Spawners](#Comandos-spawners)  
+
 ### Arreglo de Comandos:  
+#### Comandos Spawners:  
 Adaptados para la versión 1.7.10 de Minecraft.  
 Para aumentar la compatibilidad en todos los mundos y versiones de la 1.7, modifique las coordenadas y los nombres de las IDs si ve que le dan problemas.
 Estos comandos han sido arreglados por KaliNuska, si tiene alguna duda acerca de ellos, por favor, contácteme: [www.twitter.com/Kali_Nuska](www.twitter.com/Kali_Nuska "Kali_Nuska")
