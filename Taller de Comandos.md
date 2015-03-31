@@ -2,9 +2,9 @@
 ## Índice:  
   * [**Arreglo de Comandos**](#arreglo-de-comandos):  
     * [Comandos Spawners](#comandos-spawners):  
-      * [*Comando 1*](#comando-1,-thrownpotion)  
+      * [*Comando 1*](#comando-1-thrownpotion)  
         [*Condensado*](#condensado)  
-      * [*Comando 2*](#comando-2,-golden-apple)  
+      * [*Comando 2*](#comando-2-golden-apple)  
         [*Condensado*](#condensado-1)  
 
 ### Arreglo de Comandos:  
