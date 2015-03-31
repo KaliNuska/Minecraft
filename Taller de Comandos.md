@@ -1,7 +1,11 @@
 # Taller de Comandos:  
 ## Índice:  
-  * [**Arreglo de Comandos**](#Arreglo-de-Comandos):  
-    * [Comandos Spawners](#Comandos-spawners)  
+  * [**Arreglo de Comandos**](#arreglo-de-comandos):  
+    * [Comandos Spawners](#comandos-spawners):  
+      * [*Comando 1*](#comando-1,-thrownpotion)  
+        [*Condensado*](#condensado)  
+      * [*Comando 2*](#comando-2,-golden-apple)  
+        [*Condensado*](#condensado-1)  
 
 ### Arreglo de Comandos:  
 #### Comandos Spawners:  
