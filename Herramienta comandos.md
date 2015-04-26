@@ -1,4 +1,14 @@
 ## Herramientas para crear comandos:  
+  * [**Coloración de sintaxis**](#coloración-de-la-sintaxis)  
+    * [NBT Tags](#nbt-tags)  
+    * [Niveles de paréntesis](#niveles-de-paréntesis)  
+    * [Entrecomillado y otras tags](#entrecomillado-y-demás-tipos-de-tag)  
+  * [**Autosugerir campos**](#autosugerir-campos)  
+  * [**Resaltar paréntesis sin abrir o cerrar**](#resaltar-paréntesis-y-comillas-sin-abrir-o-cerrar)  
+  * [**Autoindicar los tipos de tag**](#autoindicar-los-tipos-de-tag)  
+  * [**Formatear y condensar el comando**](#formatear-y-condensar-el-comando)  
+  * [**Resultados**](#resultados)  
+
 ### Coloración de la sintaxis:  
 Cosiste en colorear el texto según los parámetros que pongo a continuación:  
 #### Argumentos:  
@@ -33,8 +43,9 @@ Cuando haya más llaves o corchetes abiertos que cerrados, los primeros se resal
 /give @p minecraft:diamond_sword 1 0 {display:{Name:**"**Daga},Unbreakable:1b,ench:[{id:19s,lvl:1s},{id:16s,lvl:3s}]}  
 
 ### Autoindicar los tipos de tag:  
-Partiendo nuevamente de una pequeña base de datos con todas las tags, cuando una de ellas se escriba, tendrá que subrayarse con el color que le corresponde al tipo de tag que tiene. En las página habrá una leyenda desplegable que comprenda los rangos de valores para cada una. *Si fuese introducido un valor que no se encuentra en el rango o que no coincide con los que se permiten, la tag se resaltaría en rojo.  
+Partiendo nuevamente de una pequeña base de datos con todas las tags, cuando una de ellas se escriba, tendrá que subrayarse con el color que le corresponde al tipo de tag que tiene. En las página habrá una leyenda desplegable que comprenda los rangos de valores para cada una. *Si fuese introducido un valor que no se encuentra en el rango o que no coincide con los que se permiten, la tag se resaltaría en rojo.*  
 Por ejemplo, al escribir una TAG_Byte, la NBT Tag quedaría subrayada en rojo; una Tag_Double en violeta, y así con el resto. Para las tags Compound, List y Array, no será necesario, ya que se determinan de otra forma.  
+![](http://i.imgur.com/sg88JQ7.png "Ejemplo")  
 ### Formatear y condensar el comando:  
 Para finalizar, una herramienta que te permita importar comandos y visualizarlos de forma ordenada para luego exportarlos condensados sería lo ideal.  
 > Partiendo de esto:  
