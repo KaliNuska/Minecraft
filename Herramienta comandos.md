@@ -3,7 +3,7 @@
 Cosiste en colorear el texto según los parámetros que pongo a continuación:  
 #### Argumentos:  
 En los argumentos, cada palabra delante y detrás de un signo `=` será coloreada, preferentemente de azul.  
-![](http://i.imgur.com/PaQ3aWy.png "Ejemplo")  
+![](http://i.imgur.com/r5dfh8u.png "Ejemplo")  
 #### NBT Tags:  
 Aplicar un color a cada NBT Tag en el comando. Para esto hará falta una lista completa de todas las que haya disponibles y se colorearán todas las que coincidan con alguna. *Habrá que tener en cuenta las mayúsculas y que coincida la palabra entera, no trozos de ella*. Si la NBT Tag escrita fuese incorrecta o no se detectara, no se aplicaría color alguno.  
 ![](http://i.imgur.com/UFV7324.png "Ejemplo")  
@@ -13,7 +13,8 @@ Los **corchetes** que coincidan en un nivel se colorearán de azul y se oscurece
 Las **laves**, de apertura y cierre, se colorearán con distintas tonalidades de rojo. Partiendo del rojo, se irá cambiando y oscureciendo, con el fin de que no puedan ser confundidas con los corchetes. Al igual que con estos otros, se comenzará de nuevo a aplicar el color cuando haya alcanzado el último.  
 ![](http://i.imgur.com/WkfMZ9o.png "Ejemplo")  
 #### Entrecomillado y demás tipos de tag:  
-Todos los caracteres que se encuentren entre comillas tendrán un fondo de color amarillo y sus tonalidades. Si hubiese varias comillas dentro de otras, se cambiará el color, por ejemplo: `Command:"/give @p minecraft:stone 1 0 {display:{Name:"Pedrusco"}}`. Lo mismo debe suceder con el resto de tags; cuando se especifica correctamente si es *short*, se colorea en verde. Si es incorrecto, algo que trataré más adelante, se colorea en rojo.  
+Todos los caracteres que se encuentren entre comillas tendrán un fondo de color amarillo y sus tonalidades. Si hubiese varias comillas dentro de otras, se cambiará el color, por ejemplo: `Command:"/give @p minecraft:stone 1 0 {display:{Name:"Pedrusco"}}`. Lo mismo debe suceder con el resto de tags; cuando se especifica correctamente una que es *short*, se colorea en verde. Si es incorrecto, algo que trataré más adelante, se colorea en rojo.  
+![](http://i.imgur.com/pIOqB7w.png "Ejemplo")  
 ### Autosugerir campos:  
 Partiendo de una lista de posibilidades, cuando se introduzca, por ejemplo, la NBT Tag `CustomName`, te sugerirá la otra que suale acompañarla: `CustomNameVisible`. Algo similar pasaría con las IDs, que después de poner `id:`, te sugerirá `minecraft:`.  
 ### Resaltar paréntesis y comillas sin abrir o cerrar:  
@@ -32,7 +33,7 @@ Cuando haya más llaves o corchetes abiertos que cerrados, los primeros se resal
 /give @p minecraft:diamond_sword 1 0 {display:{Name:**"**Daga},Unbreakable:1b,ench:[{id:19s,lvl:1s},{id:16s,lvl:3s}]}  
 
 ### Autoindicar los tipos de tag:  
-Partiendo nuevamente de una pequeña base de datos con todas las tags, cuando una de ellas se escriba, tendrá que subrayarse con el color que le corresponde al tipo de tag que tiene. En las página habrá una leyenda desplegable que comprenda los rangos de valores para cada una.  
+Partiendo nuevamente de una pequeña base de datos con todas las tags, cuando una de ellas se escriba, tendrá que subrayarse con el color que le corresponde al tipo de tag que tiene. En las página habrá una leyenda desplegable que comprenda los rangos de valores para cada una. *Si fuese introducido un valor que no se encuentra en el rango o que no coincide con los que se permiten, la tag se resaltaría en rojo.  
 Por ejemplo, al escribir una TAG_Byte, la NBT Tag quedaría subrayada en rojo; una Tag_Double en violeta, y así con el resto. Para las tags Compound, List y Array, no será necesario, ya que se determinan de otra forma.  
 ### Formatear y condensar el comando:  
 Para finalizar, una herramienta que te permita importar comandos y visualizarlos de forma ordenada para luego exportarlos condensados sería lo ideal.  
