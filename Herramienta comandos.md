@@ -8,6 +8,11 @@
   * [**Autoindicar los tipos de tag**](#autoindicar-los-tipos-de-tag)  
   * [**Formatear y condensar el comando**](#formatear-y-condensar-el-comando)  
   * [**Resultados**](#resultados)  
+    * [Comando 1](#comando-1)  
+    * [Comando 2](#comando-2)  
+    * [Comando 3](#comando-3)  
+    * [Comando 4](#comando-4)  
+    * [Comando 5](#comando-5)  
 
 ### Coloración de la sintaxis:  
 Cosiste en colorear el texto según los parámetros que pongo a continuación:  
@@ -41,6 +46,7 @@ Cuando haya más llaves o corchetes abiertos que cerrados, los primeros se resal
 /give @p minecraft:diamond_sword 1 0 {display:{Name:"Daga"},Unbreakable:1b,ench:**[**{id:19s,lvl:1s},{id:16s,lvl:3s}}  
 **Si, en vez de llaves o corchetes no cerramos unas comillas tendrá que resaltarse o avisar al menos:**  
 /give @p minecraft:diamond_sword 1 0 {display:{Name:**"**Daga},Unbreakable:1b,ench:[{id:19s,lvl:1s},{id:16s,lvl:3s}]}  
+*Otros ejemplos de esto se muestran en los [resultados](#resultados), al final del tema.  
 
 ### Autoindicar los tipos de tag:  
 Partiendo nuevamente de una pequeña base de datos con todas las tags, cuando una de ellas se escriba, tendrá que subrayarse con el color que le corresponde al tipo de tag que tiene. En las página habrá una leyenda desplegable que comprenda los rangos de valores para cada una. *Si fuese introducido un valor que no se encuentra en el rango o que no coincide con los que se permiten, la tag se resaltaría en rojo.*  
