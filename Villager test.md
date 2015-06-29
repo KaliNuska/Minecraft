@@ -5,58 +5,56 @@
 		Recipes:
 		[
 			{
-				maxUses:9999,
+				maxUses:2147483647,
 				buy:
 				{
-					id:5,
+					id:planks,
 					Count:5
 				},
 				sell:
 				{
-					id:271,
+					id:wooden_axe,
 					Count:1,
-					Damage:0,
 					tag:
 					{
+						display:
+						{
+							Name:Hacha de Madera Reforzada
+						},
 						ench:
 						[
 							{
 								id:34,
 								lvl:1
 							}
-						],
+						]
+					}
+				}
+			},
+			{
+				maxUses:2147483647,
+				buy:
+				{
+					id:planks,
+					Count:4
+				},
+				sell:
+				{
+					id:wooden_sword,
+					Count:1,
+					tag:
+					{
 						display:
 						{
-							Name:Hacha de Madera Reforzada
-						}
-					}
-				},
-				{
-					maxUses:9999,
-					buy:
-					{
-						id:5,
-						Count:4
-					},
-					sell:
-					{
-						id:268,
-						Count:1,
-						Damage:0,
-						tag:
-						{
-							ench:
-							[
-								{
-									id:34,
-									lvl:1
-								}
-							],
-							display:
+							Name:Espada de Madera Reforzada
+						},
+						ench:
+						[
 							{
-								Name:Espada de Madera Reforzada
+								id:34,
+								lvl:1
 							}
-						}
+						]
 					}
 				}
 			}
