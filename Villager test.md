@@ -1,0 +1,65 @@
+/summon Villager ~ ~1 ~ 
+{
+	Offers:
+	{
+		Recipes:
+		[
+			{
+				maxUses:9999,
+				buy:
+				{
+					id:5,
+					Count:5
+				},
+				sell:
+				{
+					id:271,
+					Count:1,
+					Damage:0,
+					tag:
+					{
+						ench:
+						[
+							{
+								id:34,
+								lvl:1
+							}
+						],
+						display:
+						{
+							Name:Hacha de Madera Reforzada
+						}
+					}
+				},
+				{
+					maxUses:9999,
+					buy:
+					{
+						id:5,
+						Count:4
+					},
+					sell:
+					{
+						id:268,
+						Count:1,
+						Damage:0,
+						tag:
+						{
+							ench:
+							[
+								{
+									id:34,
+									lvl:1
+								}
+							],
+							display:
+							{
+								Name:Espada de Madera Reforzada
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+}
