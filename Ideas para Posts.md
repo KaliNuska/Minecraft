@@ -4,6 +4,7 @@
  - [**Formato del texto en el sidebar-display del scoreboard**](#scoreboard-format)
  - [**Loot tables: descripción, tutorial y aplicaciones**](#loot-tables)
  - [**Translate en el texto en JSON**](#translate)
+ - [**Cargadores de Chunks**](#chunk-loaders)
 
 ### Scoreboard Format:
 Formato del texto que se muestra en el display lateral (*`sidebar`*) de un scoreboard:
@@ -29,6 +30,16 @@ Formato del texto que se muestra en el display lateral (*`sidebar`*) de un score
 > 
 > ------
 > [LeMoesh - Packaging Resource Packs With Your Map](http://moesh.ca/packaging-resource-packs-with-your-map/)
+
+[*Volver arriba*](#ideas-para-posts)
+
+
+----------
+### Chunk Loaders:
+
+> [LeMoesh - Spread Loaders (Loading chunks remotely)](http://moesh.ca/spread-loaders/)
+> [SimplySarc - *Remote Chunk Loader*](http://youtu.be/O8dv9P49cKk)
+> [Skylinerw - Perma-loaded spawn chunks](http://www.minecraftforum.net/forums/mapping-and-modding/maps/1537579-function-1-8-perma-loaded-spawn-chunks-void-world?comment=1)
 
 [*Volver arriba*](#ideas-para-posts)
 
