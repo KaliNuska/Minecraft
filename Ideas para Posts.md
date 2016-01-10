@@ -39,6 +39,7 @@ Formato del texto que se muestra en el display lateral (*`sidebar`*) de un score
 
 > [LeMoesh - Spread Loaders (Loading chunks remotely)](http://moesh.ca/spread-loaders/)  
 > [SimplySarc - *Remote Chunk Loader*](http://youtu.be/O8dv9P49cKk)  
+> [SimplySarc - *The final chunck loader*](https://youtu.be/egqsmXD_oCM)  
 > [Skylinerw - Perma-loaded spawn chunks](http://www.minecraftforum.net/forums/mapping-and-modding/maps/1537579-function-1-8-perma-loaded-spawn-chunks-void-world?comment=1)  
 
 [*Volver arriba*](#ideas-para-posts)
