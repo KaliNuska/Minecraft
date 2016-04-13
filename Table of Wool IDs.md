@@ -39,3 +39,6 @@
     Red wool        	 minecraft:wool 	 35                 	 14         	 minecraft:wool 14 	 /testforblock <x> <y> <z> minecraft:wool 14
     Black wool      	 minecraft:wool 	 35                 	 15         	 minecraft:wool 15 	 /testforblock <x> <y> <z> minecraft:wool 15
 
+---
+[![This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.](https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/ "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.")  
+[*This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.*](https://creativecommons.org/licenses/by-nc-sa/3.0/ "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.")  
