@@ -14,3 +14,4 @@ Son los siguientes:
   * [*Gamemode Detector 1.9*](Gamemode%20Detector%20%5B1.9%5D.schematic?raw=true)  
   * [*Right Click Detection 1.9*](Right%20Click%20Detection%20%5B1.9%5D.schematic?raw=true)  
     ![](http://i.imgur.com/A4Yofr9t.png)  
+  * [*Timer de 6 minutos*](Timer%20de%206%20min.schematic?raw=true)
