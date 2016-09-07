@@ -62,10 +62,11 @@ Comenzaremos indicando las coordenadas más pequeñas del volumen que vamos a cl
 Los tres primeros conjuntos de datos (*`<x1>`, `<y1>` y `<z1>`*) corresponden a la esquina inferior noroeste de nuestro volumen de `16` chunks. Los tres siguientes (*`<x2>`, `<y2>` y `<z2>`*), a la esquina superior sureste.
 Los tres últimos (*`<x>`, `<y>` y `<z>`*) ubican la esquina inferior noroeste del lugar donde queramos clonar nuestro volumen.
 
-Iremos ahora a una nueva hoja de cálculo de [*Excel*](https://products.office.com/es-es/excel) o [*Google Spreadsheets*](https://www.google.es/intl/es/sheets/about/) y distribuiremos cada uno de los conjuntos de datos del comando en columnas:
-| /clone | x1 | y1 | z1 | x2 | y2 | z2 | x | y | z | OUTPUT |
-|:-------|:---|:---|:---|:---|:---|:---|:--|:--|:--|-------:|
+Iremos ahora a una nueva hoja de cálculo de [*Excel*](https://products.office.com/es-es/excel) o [*Google Spreadsheets*](https://www.google.es/intl/es/sheets/about/) y distribuiremos cada uno de los conjuntos de datos del comando en columnas añadiendo otras dos para ordenarlos y para los comandos resultantes:
+| Nº | X1 | Y1 | Z1 | X2 | Y2 | Z2 | X | Y | Z | OUTPUT |
+|:---|:---|:---|:---|:---|:---|:---|:--|:--|:--|-------:|
 
+Como ya sabemos que el número total de comandos que nos van a hacer falta es de `32`, reservaremos ese número de filas para ir comenzando a calcular los datos.
 
 
 > [LeMoesh - Minecraft Command Blocks and Google Spreadsheets](http://moesh.ca/minecraft-command-blocks-and-google-spreadsheets-your-first-steps-to-madness/)  
