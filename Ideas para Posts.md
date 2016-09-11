@@ -147,7 +147,7 @@ Ya hemos creado todos los comandos que nos hacen falta para realizar esta enorme
 
 
 ```
-#<x>,<y>,<z>|<ID>|<DataVaule>|<auto 0/1>|0|<ConditionMet 0/1:<CustomName>
+#<x>,<y>,<z>|<ID>|<DataVaule>|<auto 0/1>|0|<ConditionMet 0/1>:<CustomName>
 </comando>
 
 ```
