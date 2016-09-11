@@ -269,5 +269,5 @@ Muchas gracias por llegar hasta el final del post y espero que pronto lleves a c
 ### Guia sobre el Structure Block:
 
 > [Team Woloo](https://youtu.be/543WnTIThGc)  
-> [Xisumavoid]()
+> [Xisumavoid]()  
 > [SimplySarc](https://youtu.be/JkQ5TDUnNOg)
