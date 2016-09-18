@@ -1,12 +1,22 @@
 # Ideas para Posts:  
 ## Comandos:  
 
+ - [**Todo sobre el comando /stats**](#todo-sobre-el-comando-stats)
  - [**Formato del texto en el sidebar-display del scoreboard**](#scoreboard-format)
  - [**Loot tables: descripción, tutorial y aplicaciones**](#loot-tables)
  - [**Translate en el texto en JSON**](#translate)
  - [**Cargadores de Chunks**](#chunk-loaders)
  - [**Hojas de cálculo y comandos**](#hojas-de-calculo-y-comandos)
  - [**Guia sobre el Structure Block**](#guia-sobre-el-structure-block)
+
+### Todo sobre el comando /stats:
+
+> [SkylinerW - Command-guide STATS](http://www.mapping-utilities.at/tutorials/commandstats/)  
+> [Wiki - Command /stats](http://minecraft.gamepedia.com/Commands#stats)  
+> [Wiki - CommandStats Tutorial](http://minecraft.gamepedia.com/Tutorials/Command_stats)  
+> [Jigarbov - Basic stats tutorial](https://youtu.be/dpQ8p_gyRj8)  
+> [Skylinerw - Comprehensive Guide to CommandStats](http://testfordev.com/commandstats-guide/)  
+> [Skylinerw - CommandStats spreadsheet](https://docs.google.com/spreadsheets/d/1xGGRu64AtMgDVjkE4vG01FaASE_eZoQvUXPl49KKAkw/edit#gid=403569623)  
 
 ### Scoreboard Format:
 Formato del texto que se muestra en el display lateral (*`sidebar`*) de un scoreboard:  
@@ -147,7 +157,7 @@ Ya hemos creado todos los comandos que nos hacen falta para realizar esta enorme
 
 
 ```
-#<x>,<y>,<z>|<ID>|<DataVaule>|<auto 0/1>|0|<ConditionMet 0/1>:<CustomName>
+#<x>,<y>,<z>|<ID>|<DataVaule>|<powered 0/1>|<auto 0/1>|<ConditionMet 0/1>:<CustomName>
 </comando>
 
 ```
@@ -155,7 +165,7 @@ Ya hemos creado todos los comandos que nos hacen falta para realizar esta enorme
 Poniendo el ejemplo de los comandos obtenidos para clonar los 16 chunks:
 
 ```
-#0,0,0|137|5|1|0|1:@
+#0,0,0|137|5|0|0|1:@
 /clone -32 0 -32 -17 127 -17 68 0 68
 
 #1,0,0|211|5|1|0|1:@
