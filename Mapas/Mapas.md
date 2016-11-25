@@ -16,3 +16,23 @@ Son los siguientes:
     ![](http://i.imgur.com/A4Yofr9t.png)  
   * [*Timer de 6 minutos*](Timer%20de%206%20min.schematic?raw=true)  
   * [*Stats AffectedBlocks*](%5BComandos%5D%20Stats%20AffectedBlocks%20%5B+1.9%5D.schematic?raw=true)  
+
+### 1.10:
+ * [*Mecánica de escalera horizontal*](%5BComandos%5D%20Mec%C3%A1nica%20de%20escalera%20horizontal.schematic?raw=true)  
+ Comandos:  
+
+ > `/scoreboard players set @a item 0`  
+ > `/scoreboard players set @a item 1 {SelectedItem:{id:"minecraft:shears",Count:1b}}`  
+ > `/execute @a ~ ~ ~ detect ~ ~1.9 ~ minecraft:iron_bars -1 /scoreboard players add @a[score_colgar_min=0,score_colgar=1] colgar 1`  
+ > `/execute @a[score_colgar_min=1] ~ ~ ~ /playsound minecraft:entity.bat.takeoff ambient @a[score_colgar_min=1,score_colgar=1] ~ ~ ~ 1 2 1`  
+ > `/scoreboard players remove @a[score_colgar_min=2] colgar 1`  
+ > `/execute @a ~ ~ ~ detect ~ ~1.9 ~ minecraft:iron_bars -1 /scoreboard players add @a[score_colgar_min=1,score_colgar=1] colgar 1`  
+ > `/execute @a ~ ~ ~ detect ~ ~2.799 ~ air -1 /scoreboard players set @a colgar 0`  
+ > `/effect @a[score_colgar=1,score_colgar_min=0] minecraft:levitation 0`  
+ > `/effect @a[score_colgar_min=2] minecraft:levitation 1 0 true`  
+ > `/effect @a[score_item=0] minecraft:levitation 0`  
+ > `/effect @a[score_shift_min=1] minecraft:levitation 0`  
+ > `/execute @a[score_shift_min=1] ~ ~ ~ /tp @a[score_colgar_min=2,score_colgar=2,c=1,r=0] ~ ~-.5 ~`  
+ > `/execute @a[score_shift_min=1] ~ ~ ~ /playsound minecraft:entity.bat.takeoff ambient @a[score_colgar_min=2,score_colgar=2,c=1,r=1] ~ ~ ~ 1 2 1`  
+ > `/scoreboard players set @a[score_shift_min=1] colgar 0`  
+ > `/scoreboard players set @a shift 0`  
