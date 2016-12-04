@@ -36,3 +36,26 @@ Son los siguientes:
  > `/execute @a[score_shift_min=1] ~ ~ ~ /playsound minecraft:entity.bat.takeoff ambient @a[score_colgar_min=2,score_colgar=2,c=1,r=1] ~ ~ ~ 1 2 1`  
  > `/scoreboard players set @a[score_shift_min=1] colgar 0`  
  > `/scoreboard players set @a shift 0`  
+
+ * [*Ban gamemode 1.10*](%5BCMD%5D%20Ban%20gamemode%20%5B1.10%5D.schematic?raw=true)  
+ Comandos:  
+ 
+ > `/scoreboard objectives add c dummy Jugadores en c`  
+ > `/scoreboard players set @a[name=##] c 100`  
+ > `/scoreboard players add @a c 0`  
+ > `/scoreboard players set @a[m=1,score_c=0,score_c_min=0] c 1`  
+ > `/tellraw @a[score_c_min=1,score_c=1] {"text":"X","bold":true,"color":"red"}`  
+ > `/gamemode survival @a[score_c_min=1,score_c=1]`  
+ > `/scoreboard players set @a[score_c_min=1,score_c=1] c 0`  
+
+### 1.11:
+ * [*Ban gamemode*](%5BCMD%5D%20Ban%20gamemode%20%5B1.11%5D.schematic?raw=true)  
+ Comandos:  
+ 
+ > `/scoreboard objectives add c dummy Jugadores en c`  
+ > `/scoreboard players set @a[name=##] c 100`  
+ > `/scoreboard players add @a c 0`  
+ > `/scoreboard players set @a[m=1,score_c=0,score_c_min=0] c 1`  
+ > `/tellraw @a[score_c_min=1,score_c=1] {"text":"X","bold":true,"color":"red"}`  
+ > `/gamemode survival @a[score_c_min=1,score_c=1]`  
+ > `/scoreboard players set @a[score_c_min=1,score_c=1] c 0`  
