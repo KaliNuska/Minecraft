@@ -38,6 +38,7 @@ Son los siguientes:
  > `/scoreboard players set @a shift 0`  
 
  * [*Ban gamemode 1.10*](%5BCMD%5D%20Ban%20gamemode%20%5B1.10%5D.schematic?raw=true)  
+  [![](http://i.imgur.com/tYIXUwst.png)](http://i.imgur.com/tYIXUws.png)
  Comandos:  
  
  > `/scoreboard objectives add c dummy Jugadores en c`  
@@ -50,6 +51,7 @@ Son los siguientes:
 
 ### 1.11:
  * [*Ban gamemode*](%5BCMD%5D%20Ban%20gamemode%20%5B1.11%5D.schematic?raw=true)  
+  [![](http://i.imgur.com/tYIXUwst.png)](http://i.imgur.com/tYIXUws.png)
  Comandos:  
  
  > `/scoreboard objectives add c dummy Jugadores en c`  
