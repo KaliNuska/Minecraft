@@ -49,6 +49,24 @@ Son los siguientes:
  > `/gamemode survival @a[score_c_min=1,score_c=1]`  
  > `/scoreboard players set @a[score_c_min=1,score_c=1] c 0`  
 
+ * [*Right click detection on static object 1.10*](%5BCMD%5D%20Right%20click%20detection%20on%20static%20object%20%5B1.10%5D.schematic?raw=true)  
+ [![](http://i.imgur.com/4ob2VL7t.png)](http://i.imgur.com/4ob2VL7.png)
+ Comandos:  
+ 
+ > Scoreboard setup:  
+ > `/scoreboard objectives add clickVillager stat.talkedToVillager`  
+ > `/scoreboard teams add click`  
+ > `/scoreboard teams option click collisionRule never`  
+ > `/scoreboard teams option click seeFriendlyInvisibles false`  
+ > `/scoreboard teams join click @a`  
+ > Villager:    
+ > `/summon Villager <x.> <y.> <z.> {Tags:["Click"],Profession:0,Offers:{},Invulnerable:1b,NoAI:1b,Silent:1b,PersistenceRequired:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],Team:"click",NoGravity:1b}`  
+ > MAIN:
+ > `/scoreboard players set @a clickVillager 0`  
+ > `/execute @e[type=Villager,tag=Click] ~ ~ ~ /scoreboard players add @a[score_clickVillager_min=1,r=10] <scoreboard_de_puntos> 1`  
+ > `/execute @a[score_clickVillager_min=1] ~ ~ ~ /kill @e[type=Villager,tag=Click,c=1,r=10]`  
+ > `/scoreboard players set @a[score_clickVillager_min=1] clickVillager 0`   
+
 ### 1.11:
  * [*Ban gamemode*](%5BCMD%5D%20Ban%20gamemode%20%5B1.11%5D.schematic?raw=true)  
   [![](http://i.imgur.com/tYIXUwst.png)](http://i.imgur.com/tYIXUws.png)
@@ -61,3 +79,21 @@ Son los siguientes:
  > `/tellraw @a[score_c_min=1,score_c=1] {"text":"X","bold":true,"color":"red"}`  
  > `/gamemode survival @a[score_c_min=1,score_c=1]`  
  > `/scoreboard players set @a[score_c_min=1,score_c=1] c 0`  
+
+ * [*Right click detection on static object 1.11*](%5BCMD%5D%20Right%20click%20detection%20on%20static%20object%20%5B1.11%5D.schematic?raw=true)  
+ [![](http://i.imgur.com/4ob2VL7t.png)](http://i.imgur.com/4ob2VL7.png)
+ Comandos:  
+ 
+ > Scoreboard setup:  
+ > `/scoreboard objectives add clickVillager stat.talkedToVillager`  
+ > `/scoreboard teams add click`  
+ > `/scoreboard teams option click collisionRule never`  
+ > `/scoreboard teams option click seeFriendlyInvisibles false`  
+ > `/scoreboard teams join click @a`  
+ > Villager:    
+ > `/summon minecraft:villager <x.> <y.> <z.> {Tags:["Click"],Profession:0,Offers:{},Invulnerable:1b,NoAI:1b,Silent:1b,PersistenceRequired:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],Team:"click",NoGravity:1b}`  
+ > MAIN:
+ > `/scoreboard players set @a clickVillager 0`  
+ > `/execute @e[type=Villager,tag=Click] ~ ~ ~ /scoreboard players add @a[score_clickVillager_min=1,r=10] <scoreboard_de_puntos> 1`  
+ > `/execute @a[score_clickVillager_min=1] ~ ~ ~ /kill @e[type=Villager,tag=Click,c=1,r=10]`  
+ > `/scoreboard players set @a[score_clickVillager_min=1] clickVillager 0`   
