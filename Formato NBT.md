@@ -1,5 +1,5 @@
 ## Formato NBT en Minecraft:
-El formato **NBT** es utilizado en Minecraft para almacenar datos en forma de árbol compuesto por tags. Todas las tags tienen una ID y un nombre propios. La versión original que podemos encontrar en [*Minecraft Beta 1.3*](http://minecraft.gamepedia.com/Version_history/Beta#Beta_1.3) hace uso de la versión `19132` y se actualizó a la `19133` cuando se cambió a [*Anvil*](http://minecraft.gamepedia.com/Anvil_file_format), con la adición de la *TAG_****Int_Array***.  
+El formato **NBT** es utilizado en Minecraft para almacenar datos en forma de árbol compuesto por tags. Todas las tags tienen una ID y un nombre propios. La versión original que podemos encontrar en [*Minecraft Beta 1.3*](http://minecraft.gamepedia.com/Version_history/Beta#Beta_1.3) hace uso de la versión `19132` y se actualizó a la `19133` cuando se cambió a [*Anvil*](http://minecraft.gamepedia.com/Anvil_file_format), con la adición de la TAG_**Int_Array**.  
 ### Definición de tag:  
 Una tag es una parte individual del árbol de datos. El primer byte en una tag determina su ID, le siguen dos bytes para la longitud del nombre de la tag y, por último, el nombre como cadena de caracteres en formato UTF-8.  
 *(Nota: TAG_End no está nombrada y no contiene los 2 bytes correspondientes)*  
