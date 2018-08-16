@@ -1,5 +1,7 @@
 # ![SELECTORES DE OBJETIVO](http://i.imgur.com/8prOWuF.gif "SELECTORES DE OBJETIVO")
 
+*NOTA. El contenido de este post ha quedado obsoleto tras la actualización de Minecraft 1.13. Si deseas consultar el contenido actualizado lo podrás encontrar aquí: [minecraftmin.net/index.php?topic=7888](http://minecraftmin.net/index.php?topic=7888.msg41434#msg41434).*
+
 ## TOC
 [Selectores de Objetivo:](#start-of-content)
   * [TOC](#toc)
@@ -21,8 +23,6 @@
   * [TLDR](#tldr)
   * [Despedida](#despedida)
   * [Historial de cambios](#historial-de-cambios)
-
-*NOTA. El contenido de este post ha quedado obsoleto tras la actualización de Minecraft 1.13. Si deseas consultar el contenido actualizado lo podrás encontrar aquí: [minecraftmin.net/index.php?topic=7888](http://minecraftmin.net/index.php?topic=7888.msg41434#msg41434).*
 
 ## Introducción
 **Los selectores de objetivo son utilizados en gran variedad de comandos, formando, en muchos de ellos, una parte esencial en su composición.**
