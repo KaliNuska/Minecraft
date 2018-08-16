@@ -1,5 +1,27 @@
 # ![SELECTORES DE OBJETIVO](http://i.imgur.com/8prOWuF.gif "SELECTORES DE OBJETIVO")
 
+## TOC
+[Selectores de Objetivo:](#start-of-content)
+  * [TOC](#toc)
+  * [Introducción](#introducción)
+  * [Variables](#variables)
+  * [Argumentos](#argumentos)
+    * [Seleccionar objetivos mediante coordenadas:](#seleccionar-objetivos-mediante-coordenadas)
+    * [Seleccionar objetivos por el radio:](#seleccionar-objetivos-por-el-radio)
+    * [Seleccionar objetivos dentro de un volumen:](#seleccionar-objetivos-dentro-de-un-volumen)
+    * [Seleccionar objetivos por su modo de juego:](#seleccionar-objetivos-por-su-modo-de-juego)
+    * [Seleccionar una cantidad de objetivos:](#seleccionar-una-cantidad-de-objetivos)
+    * [Seleccionar objetivos por su experiencia:](#seleccionar-objetivos-por-su-experiencia)
+    * [Seleccionar objetivos en base a su puntuación:](#seleccionar-objetivos-en-base-a-su-puntuación)
+    * [Seleccionar objetivos por equipo:](#seleccionar-objetivos-por-equipo)
+    * [Seleccionar objetivos por su nombre:](#seleccionar-objetivos-por-su-nombre)
+    * [Seleccionar objetivos por su ángulo de inclinación de la visión:](#seleccionar-objetivos-por-su-ángulo-de-inclinación-de-la-visión)
+    * [Seleccionar objetivos por `tag`:](#seleccionar-objetivos-por-tag)
+    * [Seleccionar objetivos por tipo:](#seleccionar-objetivos-por-tipo)
+  * [TLDR](#tldr)
+  * [Despedida](#despedida)
+  * [Historial de cambios](#historial-de-cambios)
+
 *NOTA. El contenido de este post ha quedado obsoleto tras la actualización de Minecraft 1.13. Si deseas consultar el contenido actualizado lo podrás encontrar aquí: [minecraftmin.net/index.php?topic=7888](http://minecraftmin.net/index.php?topic=7888.msg41434#msg41434).*
 
 ## Introducción
@@ -226,6 +248,6 @@ En Domingo, 20 de Noviembre de 2016 los cambios realizados con respecto a la edi
 | |Las cuatro primeras variables de un selector ya no equivalen a x, y, z y r en caso de no ser indicada su categoría. |
 | Corregidos errores de escritura y de formato.| |
 | Mejora de la expresión de algunas partes del contenido.| |
-| Agregadas dos imágenes.| |[/table]
+| Agregadas dos imágenes.| |
 
-[![Arriba](http://i.imgur.com/lVbypSJ.png "Arriba")](https://github.com/KaliNuska/Minecraft/blob/master/Selectores%20de%20objetivo.md#TOC)
+[![Arriba](http://i.imgur.com/lVbypSJ.png "Arriba")](#start-of-content)
